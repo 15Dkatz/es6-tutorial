@@ -1,0 +1,6 @@
+let b = ;
+console.log()
+
+{
+
+}
