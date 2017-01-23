@@ -1,4 +1,4 @@
-##Coding Exercise: Let's scope lets
+##Coding Exercise: Let's Scope 'lets'
 
 ###Description:
 Let's reinforce the idea of variables scoping with 'let'!
