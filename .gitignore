@@ -1,2 +1,2 @@
-node_modules/
-setup/node_modules/
+.gitignore
+node_modules
