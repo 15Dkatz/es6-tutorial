@@ -15,13 +15,13 @@ Which of the following statements will give me the variable, wizard, with the va
 
 **a) let [hobbit, wizard, ranger, elf, dwarf] = fellowship;** //answer
 
-explanation: Destructuring assignment looks at the order in the array. Because the wizard variable is the second element in the assignment array, it assigns to the fellowship array's second element, "Gandalf". // TODO fix in Udemy (typo)
+explanation: Correct! Destructuring assignment looks at the order in the array. Because the wizard variable is the second element in the assignment array, it assigns to the fellowship array's second element, "Gandalf". 
 
 b) let [...characters] = fellowship;
 explanation: Although this makes a new array, it does not assign a wizard variable.
 
 c) let [wizard, hobbit, elf, dwarf, ranger];
-explanation: Correct! Destructing assignment looks at the order in the array. Wizard is the first variable in the assignment, so it will match to 'Frodo' and not 'Gandalf'
+explanation: Destructing assignment looks at the order in the array. Wizard is the first variable in the assignment, so it will match to 'Frodo' and not 'Gandalf'
 
 ###2)
 
@@ -43,4 +43,4 @@ explanation: This statement assigns hobbit to "Frodo", but doesn't capture only 
 
 **c) let [hobbit, wizard, ...three_amigos] = fellowship;** // answer
 
-explanation: Correct! This statement
+explanation: Correct! This statement assigns hobbit to "Frodo" and wizard to "Gandalf". Using the spread operator, three_amigos captures the rest of the fellowship, ["Aragorn", "Legolas", "Gimli"].
