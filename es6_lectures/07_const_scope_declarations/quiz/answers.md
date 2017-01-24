@@ -1,3 +1,7 @@
+##Quiz: Can we manipulate constants?
+
+###1)
+
 Say we have:
 
 ```javascript
@@ -12,7 +16,7 @@ explanation: This line re-assigns the array const. You can't re-assign constants
 
 **b) array.push(4);** // the answer
 
-explanation: Although this line manipulates the const array. It does not re-assign the actual array const itself. This is valid!
+explanation: Correct! Although this line manipulates the const array. It does not re-assign the actual array const itself. This is valid!
 
 c) array = 3 + 1;
 
