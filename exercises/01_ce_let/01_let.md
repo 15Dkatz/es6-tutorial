@@ -9,8 +9,8 @@ Consider this run function. It has a block scope, { .. }. Also, on line 3, the v
 On line 7, use the 'let' keyword to change 'b' to 3. The console.logs should output '2, 3'.
 
 
-###Student File (student.js)
+####[Student File](./student.js)
 
-###Solution File (solution.js)
+####[Solution File](./solution.js)
 
-###Evaluation file(evaluate.js)
+####[Evaluation file](./evaluate.js)

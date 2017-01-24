@@ -1,7 +1,7 @@
 function run() {
 
     let b = 2;
-    console.log(b)
+    console.log(b);
 
     {
         let b = 3;
