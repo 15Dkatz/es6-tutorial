@@ -1,17 +1,12 @@
 ##Coding Exercise: Let's Scope 'lets'
 
 ###Description:
-Let's reinforce the idea of variables scoping with 'let'!
+Let's reinforce the idea of variables scoping with 'let' with a short coding exercise! Remember that with scoping we can re-use the same variable name.
 
-Remember that with scoping we can re-use the same variable name.
+Directions:
+Consider this run function. It has a block scope, { .. }. Also, on line 3, the variable 'b' = 2.​
 
-So, let a variable, b, equal 2.
-
-Console.log that variable, b.
-
-Then, in a new scope block, { .. }, let a variable, b, equal 3.
-
-Console.log that variable, b, within the scope block.
+On line 7, use the 'let' keyword to change 'b' to 3. The console.logs should output '2, 3'.
 
 
 ###Student File (student.js)
