@@ -8,5 +8,5 @@
 // console.log(total, "students");
 //
 // part 3:
-// import students from './students';
-// console.log(students);
+import students from './students';
+console.log(students);

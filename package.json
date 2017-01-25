@@ -1,6 +1,9 @@
 {
   "name": "setup",
   "version": "1.0.0",
+  "babel": {
+    "presets": ["es2015"]
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
