@@ -1,5 +1,5 @@
 // part 1:
-
+//
 // this.a = 25; // declaring globally
 //
 // let print = function() {
@@ -7,9 +7,9 @@
 // }
 //
 // print();
-
+//
 // part 2:
-
+//
 // this.a = 25; // declaring globally
 //
 // let print = function() {
@@ -18,10 +18,10 @@
 // }
 //
 // print();
-
-
+//
+//
 // part 3:
-
+//
 // this.a = 25; // declaring globally
 //
 // let print = () => {
