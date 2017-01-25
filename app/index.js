@@ -1,15 +1,12 @@
-// all parts
-// let scores = [90, 85, 67, 71, 70, 55, 92];
-
 // part 1:
-// let isPassing = (grade) => {
-//   return grade >= 70;
-// }
+// import students from './students';
+// console.log(students);
 //
-// let passing = scores.filter(isPassing);
-
-//part 2:
-// let passing = scores.filter(element => element >= 70);
-
-// all parts
-// console.log(passing);
+// part 2:
+// import {students, total} from './students';
+// console.log(students);
+// console.log(total, "students");
+//
+// part 3:
+// import students from './students';
+// console.log(students);
