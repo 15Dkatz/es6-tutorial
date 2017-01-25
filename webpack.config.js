@@ -1,8 +1,8 @@
 module.exports = {
   entry: ['babel-polyfill', './app/index.js'],
   output: {
-    filename: 'bundle.js',
-    path: './build'
+    path: './build',
+    filename: 'bundle.js'
   },
   // NOTE 'Setting up Webpack'
   module: {
