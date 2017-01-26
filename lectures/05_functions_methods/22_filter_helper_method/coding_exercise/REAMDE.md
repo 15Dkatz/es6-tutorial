@@ -1,4 +1,4 @@
-##Coding Exercise: Too Many Turnovers (Filter Helper Method)
+<!-- ##Coding Exercise: Filtering For Stars (Filter Helper Method)
 
 Let's get some practice with the filter method!
 
@@ -16,4 +16,4 @@ Help Jeremy finish his highlight method so that it returns a new array of player
 
 ###[Solution File]('./solution.js')
 
-###[Evaluation File]('./evaluate.js')
+###[Evaluation File]('./evaluate.js') -->
