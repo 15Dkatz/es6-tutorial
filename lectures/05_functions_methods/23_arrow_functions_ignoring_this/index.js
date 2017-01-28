@@ -1,6 +1,7 @@
-// part 1:
-//
+// all parts:
 // this.a = 25; // declaring globally
+//
+// part 1:
 //
 // let print = function() {
 //   console.log('this.a', this.a); // this.a undefined
@@ -9,8 +10,6 @@
 // print();
 //
 // part 2:
-//
-// this.a = 25; // declaring globally
 //
 // let print = function() {
 //   this.a = 50;
@@ -22,10 +21,8 @@
 //
 // part 3:
 //
-// this.a = 25; // declaring globally
-//
-// let print = () => {
-//   console.log('this.a', this.a); // this.a 25
+// let arrowPrint = () => {
+//   console.log('this.a in arrowPrint', this.a); // this.a in arrowPrint 25
 // }
 //
-// print();
+// arrowPrint();
