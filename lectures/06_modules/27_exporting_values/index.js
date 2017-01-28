@@ -1,5 +1,5 @@
 // part 1:
-// import students from './students';
+// import { students } from './students';
 // console.log(students);
 //
 // part 2:
