@@ -1,4 +1,4 @@
-# https://www.udemy.com/essentials-in-javascript-es6/
+# Essentials in JavaScript ES6 - A Fun and Clear Introduction
 
 ### Please use this resource for the following reasons!
 
