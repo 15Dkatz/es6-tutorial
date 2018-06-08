@@ -1,5 +1,15 @@
-function butter(...a) {
-  return a;
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+
+
+class App extends Component {
+  render() {
+    return (
+      <div>Hey JSX in action!</div>
+    )
+  }
 }
 
-console.log(butter(1, 2, 3));
+ReactDOM.render(
+  <App />, document.getElementById('root')
+);
