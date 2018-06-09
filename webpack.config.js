@@ -1,24 +1,22 @@
+const path = require('path');
+
 module.exports = {
-  entry: ['babel-polyfill', './app/index.js'],
+  entry: path.resolve(__dirname, 'app'),
   output: {
-    path: './build',
-    // if the above line does not work, try `path: __dirname + '/build'`
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js'
   },
-  // NOTE 'Setting up Webpack'
+  devServer: {
+    port: 3000,
+    contentBase: path.resolve(__dirname, 'build')
+  },
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.js$/, // a regular expression that catches .js files
+        test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        use: ['babel-loader']
       }
     ]
-  },
-  devServer: {
-    port: 3000, // most common port
-    contentBase: './build',
-    inline: true
   }
-  // NOTE 'Adding babel to Webpack'
-}
+};
